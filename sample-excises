@@ -1,0 +1,9 @@
+for(let i = 2; i <=6; i +=2) {
+   console.log(i);
+}
+
+const oddNumbers = [];
+for(let i = 1; i <= 9; i +=2) {
+    oddNumbers.push(i);
+   console.log(oddNumbers);
+}
