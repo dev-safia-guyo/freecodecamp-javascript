@@ -7,3 +7,34 @@ for(let i = 1; i <= 9; i +=2) {
     oddNumbers.push(i);
    console.log(oddNumbers);
 }
+
+const colors = ['red', 'green', 'blue'];
+ 
+for(const color of colors) {
+    console.log(color);
+}
+
+
+
+const scores = [45, 72, 88, 34, 95, 61];
+for (let i = 0; i < scores.length; i++) {
+    if(scores[i] >= 90) {
+      console.log(`First scores over 90 found: ${scores[i]} at index ${i}`);
+                break;
+  }
+}
+
+for (let i = 1; i <= 10; i++) {
+      if (i % 2 === 0) continue;
+      console.log(i);
+}
+
+
+
+const register = ['Alice', null, 'Brian', null, 'Ciku'];
+for (const name of register) {
+      if (name === null) {
+            console.log(`(absent)`);
+            continue;
+       } console.log(`Present: ${name}`);
+ }
